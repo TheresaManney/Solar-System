@@ -16,7 +16,7 @@ class Planet
     @distance_from_the_sun = planet_hash[:distance_from_the_sun]
 
   end
-  
+
   def print_info
     puts "Name: #{ @name }"
     puts "Planet number from sun: #{ @planet_number }"
@@ -186,3 +186,5 @@ milkey_way.print_planets
 #     prompting = false
 #   end
 # end
+
+#...extra note that I created to practice with git...#
